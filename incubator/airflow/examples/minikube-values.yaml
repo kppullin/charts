@@ -12,7 +12,6 @@ airflow:
     AIRFLOW__CORE__LOAD_EXAMPLES: True
 
 workers:
-  serviceAccountName: "default"
   replicas: 1
   celery:
     instances: 1
